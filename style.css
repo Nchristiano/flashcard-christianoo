@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+    font-family: bai JamJuree;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    bottom: 0;
+    position: fixed;
+    width: 100px;
+
+}
+footer p{
+     text-align: center;
+     font-size: 0.6rem;
+     height: 2rem;
+     margin-top: 0.5rem;
+}
