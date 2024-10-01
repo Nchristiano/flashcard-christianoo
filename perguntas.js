@@ -1,29 +1,24 @@
-function criaCartao(categoria, pergunta, resposta) {
-    let container = document.getElementById('container')
-    let cartao = document.createElement('article')
-    cartao.className = 'cartao'
 
-    cartao.innerHTML = `
-    <div class="cartao__conteudo">
-    <h3>${categoria}</h3>
-    <div class="cartao__conteudo__pergunta">
-        <p>${pergunta}</p>
-    </div>
-    <div class="cartao__conteudo__resposta">
-        <p>${resposta}</p>
-    </div>
-    </div>
-    `
+criaCartao(
+    'Programação',
+    'O que é Portal Wheeling ?',
+    'é uma fabrica e loja online responsavel pela criação do quadro de bike PERIFA '
+)
 
-    let respostaEstaVisivel = false
+criaCartao(
+    'Geografia',
+    'quemé o criador da marca ?',
+    'o criador e mentor da empresa se chama Hudson Amorim'
+)
 
-    function viraCartao() {
-        respostaEstaVisivel = !respostaEstaVisivel
-        cartao.classList.toggle('active', respostaEstaVisivel)
-    }
-    cartao.addEventListener('click', viraCartao)
+criaCartao(
+    'Programação',
+    'qual o proposito da empresa?',
+    ' produzir peças e componestes de alta qualidade para uma bicicleta, comercializar variados tipos de bicicletas, casuais, esportivas, e biciclestas para manobras '
+)
 
-
-    container.appendChild(cartao)
-
-}
+criaCartao(
+    'Lingua inglesa',
+    'quando foi criada tal empresa?',
+    'O Portal Wheeling nasceu em 2013'
+)
