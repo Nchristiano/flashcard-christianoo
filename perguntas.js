@@ -8,7 +8,7 @@ criaCartao(
 criaCartao(
     'criador',
     'quem é o criador da marca ?',
-    'o criador e mentor da empresa se chama Hudson Amorim'
+    'os criadores e mentores da empresa se chamam Hudson Xavier e Edmilsom Xavier '
 )
 
 criaCartao(
