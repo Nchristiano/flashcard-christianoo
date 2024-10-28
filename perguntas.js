@@ -20,5 +20,5 @@ criaCartao(
 criaCartao(
     'sobre a empresa',
     'quando foi criada tal empresa?',
-    'O Portal Wheeling nasceu em 2013'
+    'O Portal Wheeling nasceu em 2013 com a finalidade de expandir a modalidade Wheeling Bike no Brasil e no mundo através do Youtube, após notarmos um excelente resultado no crescimento da modalidade percebemos a dificuldade dos praticantes em adquirir peças necessárias para a prática do Wheeling e a partir de então ...'
 )
