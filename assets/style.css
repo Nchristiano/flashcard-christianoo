@@ -8,6 +8,7 @@
 body {
     background: url(img/hudson.webp);
     background-repeat: no-repeat;
+    background-size: auto;
     font-family: Bai Jamjuree;
     
 }
